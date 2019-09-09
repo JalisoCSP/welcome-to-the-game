@@ -6,3 +6,14 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+@font-face {
+  font-family: "youmurdererbb_reg";
+  src: url("../css/youmurdererbb_reg.otf");
+}
+
+#welcome {
+  font-family: "youmurdererbb_reg";
+  font-size: 10rem;
+}
+
