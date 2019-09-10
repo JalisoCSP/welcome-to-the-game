@@ -9,7 +9,7 @@ layout: default
   <p id="welcome">
     Welcome to the Game &#125;
   </p>
-  <p id="timer" class="text-4xl"></p>
+  <p id="timer" class="text-4xl">...</p>
 </div>
 
 <script>
