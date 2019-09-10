@@ -12,8 +12,11 @@
   src: url("../css/youmurdererbb_reg.otf");
 }
 
-#welcome {
+body {
   font-family: "youmurdererbb_reg";
+}
+
+#welcome {
   font-size: 10rem;
 }
 
