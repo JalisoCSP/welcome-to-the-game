@@ -5,7 +5,7 @@
 layout: default
 ---
 
-<div class="tracking-wide leading-tight text-green-600 m-auto p-4 text-center">
+<div class="tracking-wide leading-tight text-green-500 m-auto p-4 text-center">
   <p id="welcome">
     Welcome to the Game &#125;
   </p>
@@ -32,9 +32,9 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Display the result in the element with id="demo"
+  // Display the result in the element with id="timer"
   document.getElementById("timer").innerHTML = days + " days " + hours +
-  " hours " + minutes + " mins " + seconds + " secs ";
+  " hours " + minutes + " mins " + seconds + " secs";
 
   // If the count down is finished, write some text
   if (distance < 0) {
